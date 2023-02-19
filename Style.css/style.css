@@ -20,9 +20,20 @@ text-align: center;
 }
 
 .giadinh{
+  background-color: rgba(red, green, blue, alpha);
     display: flex;
+    margin-left: 20px;
+    
 }
 
 .giadinh ul{
     margin-left: 25px;
+}
+.me{
+border-top: 1px solid; color: black;
+border-right: 1px ;
+border-bottom: 1px solid; color: blue   ;
+}
+.con{
+    margin: left 1000px
 }
