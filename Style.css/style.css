@@ -2,41 +2,29 @@
    margin: 0;
    padding: 0;
 }
-/* .giadinh{
-border: 10px solid aqua ;
-max-width: 60px;
-margin-right:100px ;
-width: 300px;
-height: 400px;
-text-align: center;
-/* border-radius:100%; */
-/* border-radius:20px 0px 10pz 10px; */
-/* } */ 
+.tong{
+   border: 2px solid black;
+   margin: 10%;
+  background-color: antiquewhite;
+
+}
+.tonghop{
+   width: 100%;
+   background-color: aqua;
+}
+.a{
+ font-size: 500%;
+ color: blue;
+ margin-left: 500px;
+}
+.b{
+   width: 30%;
+   margin-left: 500px;
+   background-color: rgb(0, 255, 174);
+}
+.c{
+color: rgb(1, 8, 14);
+  
+}
 
 
-.container{
-    border: 1px solid black;
-    margin: 10px;
-}
-
-.giadinh{
-  background-color: rgba(red, green, blue, alpha);
-    display: flex;
-    margin-left: 20px;
-    
-}
-
-.giadinh ul{
-    margin-left: 25px;
-}
-.me{
-border-top: 1px solid; color: black;
-border-right: 1px ;
-border-bottom: 1px solid; color: blue   ;
-}
-.con{
-    margin: left 1000px
-}
-.con1{
-    caption-side: top;
-}

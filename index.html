@@ -5,62 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./Style.css/STT.css">
+    <link rel="stylesheet" href="style.css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
-
 <body>
-    <div>
-        <table border="2"  cellspacing="0" cellpaddinh="5">
-            <tr class="tong">
-                <th> #</th>
-                <th> THỨ 2</th>
-                <th> THỨ 3</th>
-                <th> THỨ 4</th>
-                <th> THỨ 5</th>
-                <Th> THỨ 6</Th>
-            </tr>
-            <tr class="a">
-                <th>Tiết 1</th>
-                <th> VĂN</th>
-                <th>SỬ </th>
-                <th> ĐỊA</th>
-                <th> TIẾNG ANH</th>
-                <th> MỸ THUẬT</th>
-            </tr>
-            <tr class="b">
-                <th>Tiết 2</th>
-                <th>VĂN</th>
-                <th> VĂN</th>
-                <th> TOÁN</th>
-                <th> TOÁN</th>
-                <th> SINH HOẠT LỚP</th>
-            </tr>
-            <tr class="c">
-                <th>Tiết 3</th>
-                <th>TOÁN</th>
-                <th>TOÁN</th>
-                <th>TOÁN</th>
-                <th>TOÁN</th>
-                <th>THỂ DỤC</th>
-        
-            </tr>
-            <tr class="d">
-                <th>Tiết 4</th>
-                <th>VĂN</th>
-                <th> HÓA</th>
-                <th> VẬT LÝ</th>
-                <th> ĐỊA LÝ</th>
-                <th>TIẾNG Anh-Hà</th>
-            </tr>
-        
-         </table>
+    <div class="tong">
+        <h1 class="b"> FROM ĐĂNG KÍ </h1>
+    <form class="c">
+        <div class="c">
+            <i class="fa-sharp fa-solid fa-user"><label for="fullname"> Họ Và Tên </label</h1>></i><br>
+            <input type="text" name="" id="" required><br>
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-envelope"><label for="">Email</label></i><br>
+        <input type="email" name="Email" id="Email" required><br>
+        </div>
+       <input type="button" value="Đăng Kí Tài Khoản"></a><br>
+       
+        <div>
+            <select name="number" id="age">
+                <option value="age">18</option>
+                <option value="age">19</option>
+                <option value="age">20</option>
+                <option value="age">21</option>
+                <option value="age">22</option>
+                <option value="age">23</option>
+                <option value="age">24</option>
+                <option value="age">25</option>
+                <option value="age">26</option>
+                <option value="age">27</option>
+                <option value="age">28</option>
+                <option value="age">29</option>
+                <option value="age">30</option>
+
+                <label for="age">TUỔI</label><br>
+                <input type="number" id="age" name="age" min="18" max="100">
+            </select>
+            
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-children"><label for="gender"> Giới Tính </label></i><br>
+            <i class="fa-sharp fa-solid fa-child"><label for="male">Nam</label> </i>
+            <input type="radio" id="male" name="gender"> 
+            <i class="fa-sharp fa-solid fa-child-dress"><label for="female">Nữ </label></i> 
+            <input type="radio" id="female" name="gender">   
+        </div>
+     <div>
+        <h2><label for="code"> NGÔN NGỮ YÊU THÍCH</label><br></h2>
+        <i class="fa-regular fa-sun"><label for="code"> JABAN</label></i>
+        <input type="checkbox" id="code" value="code">
+        <i class="fa-solid fa-leafy-green"><label for="code"> KOREA</label></i>
+        <input type="checkbox" id="code" value="code">
+        <i class="fa-solid fa-wrench"><label for="code"> CHINA</label></i>
+        <input type="checkbox" id="code" value="code">
+        <i class="fa-regular fa-star"><label for="code"> VIỆT NAM</label></i>
+        <input type="checkbox" id="code" value="code">
+     </div>
+     <div>
+        <h2><label for="codea"> sở thích</label><br></h2>
+        <i class="fa-sharp fa-solid fa-table-picnic"><label for="codea"> Du lịch</label></i>
+        <input type="checkbox" id="codea" value="codea"><br>
+        <i class="fa-sharp fa-solid fa-futbol"><label for="codea"> Thể thao</label></i>
+        <input type="checkbox" id="codea" value="codea"><br>
+        <i class="fa-sharp fa-solid fa-book"><label for="codea"> Đọc Sách</label></i>
+        <input type="checkbox" id="codea" value="codea"><br>
+        <i class="fa-sharp fa-solid fa-clapperboard-play"><label for="codea"> Xem Phim</label></i> 
+        <input type="checkbox" id="codea" value="codea"><br>
+        <i class="fa-sharp fa-solid fa-fish"><label for="codea"> Câu Cá</label></i>
+        <input type="checkbox" id="codea" value="codea"><br>
+        <i class="fa-sharp fa-solid fa-gamepad"><label for="codea"> Chơi Game</label></i>
+        <input type="checkbox" id="codea" value="codea"><br>
+        <i class="fa-sharp fa-solid fa-headphones"><label for="codea"> Nghe nhạc</label></i>
+        <input type="checkbox" id="codea" value="codea"><br>
+
+     </div>
+     <button type="button">
+        <img src="./video/2mai.jpg" width="20%" alt=""> 
+
+     </button>
+
+        <a href="index6.html">Đăng Nhập </a>
+    </form>
     </div>
- 
-  
-    
-    
-    
- 
-    
 </body>
 </html>
