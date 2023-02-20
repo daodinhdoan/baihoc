@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tong{
+    background-color: aquamarine;
+    width: 70%; 
+}
+.a{
+    background-color: pink;
+}
+.b{
+    background-color: antiquewhite;
+}
+.c{
+    background-color: darksalmon;
+}
+.d{
+    background-color: darkgreen;
+}
