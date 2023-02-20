@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tonghop{
+    margin: 15px;
+    background-color: khaki ;
+    
+    
+}
+.A{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black  ;
+    background-color: aqua;
+    margin-right: 1250px;
+    float:right;
+    width: auto;
+    display: flex;
+    
+}
+.B{
+    float:right;
+}
+.C{
+    background-color:gold;
+    width:300px
+}
+.D{
+    float:right;
+    width :100px ;
+    margin-left:20px;
+    border-bottom: 2px solid black;
+    
+}
+.E{
+    
+    float: left;
+    width:50%;
+    background-color: pink;
+    min-height: 100px;
+}
+.H{
+    
+    float: left;
+    width: 50%;
+    background-color: brown ;
+    min-height: 100px;
+}
+.Q{
+ background-color:hotpink;
+ width: 80%;
+}
+.T{
+    background-color: hotpink;
+    width: 90%;
+}
+
+
+
+

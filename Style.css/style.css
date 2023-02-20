@@ -37,3 +37,6 @@ border-bottom: 1px solid; color: blue   ;
 .con{
     margin: left 1000px
 }
+.con1{
+    caption-side: top;
+}
