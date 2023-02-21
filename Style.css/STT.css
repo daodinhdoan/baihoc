@@ -4,7 +4,8 @@
 }
 .tong{
     background-color: aquamarine;
-    width: 70%; 
+    width: 50%; 
+
 }
 .a{
     background-color: pink;
@@ -17,4 +18,6 @@
 }
 .d{
     background-color: darkgreen;
+}
+.h{
 }

@@ -4,7 +4,7 @@
 }
 .tong{
    border: 2px solid black;
-   margin: 10%;
+   margin:5%;
   background-color: antiquewhite;
 
 }
@@ -26,5 +26,10 @@
 color: rgb(1, 8, 14);
   
 }
+.d{
+   background-color: aqua;
+
+}
+
 
 
