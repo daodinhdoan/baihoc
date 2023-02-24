@@ -3,18 +3,36 @@
     padding: 0;
     box-sizing: border-box
 }
-.tonghop{
+html{
+    background-image: url(/video/cute-abstract-modern-background-free-vector.webp);
+    background-repeat: no-repeat;
     
-    text-align: center;
-    background-color: antiquewhite;
+}
+H1{
+   text-align: center;
+    margin-bottom: 50px;
+    background-color:skyblue;
+    
+    
+   
+   
+
+  
 }
 .a{
-   color: red;
+    background-color: brown;    
+}
+h3{
+    
+    width:90%;
 }
 .b{
     border: 2px solid black;
-}
-.c{
- margin-left:100px;
-  padding-left: 10%;
+    background-color: pink;
+    height: 50px;
+}   
+h2{
+    background-color: aquamarine;
+    margin:10px;
+    
 }
