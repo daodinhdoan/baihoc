@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#icon-x {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    padding: 8px;
+    padding: 10px;
+}
+
+#icon-y {
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 24px;
+    color: white;
+    right: 7px;
+}
+
+#box {
+    text-align: center;
+}
+
+#main img {
+    width: 1000px;
+    position: relative;
+    margin-left: 200px;
+}
+
+#text {
+    position: absolute;
+    color: aliceblue;
+    top: 350px;
+    left: 200px;
+    font-size: 2em;
+    margin-left: 10px;
+}
+h3 {
+    background-color: rgba(119, 136, 153, 0.543);
+    width: 270px;
+    margin-left:
+}
+
+/* HẾT PHẦN HEADER */
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    width: 100px;
+}
+#maine {
+    margin-left: 100px;
+    background-color: black;
+    color: aliceblue;
+}
+#maine img {
+    width: 300px;
+}
+#icon {
+    border: 1px solid rgb(0, 0, 0);
+    width: 80px;
+    padding: 10px;
+}
+#img img {
+    /* chưa xong  */
+    width: 50px;
+}
+#text-text {
+    /* chưa xong */
+    font-weight: 600;
+    margin-left: 100px;
+}
+#hove {
+    margin-left: 100px;
+    background-color: rgb(241, 234, 234);
+    color: rgb(3, 3, 3);
+    border: 1px solid rgb(241, 235, 235);
+}
+#hove img {
+    width: 20%;
+}
+.content-text{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+
+}
+#span{
+ background-color: black;
+ color: aliceblue;
+ padding: 10px 10px;
+}
+.footer{
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+  
+
+
+
+   
+
+
+
+
